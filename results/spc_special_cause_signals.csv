@@ -1,0 +1,4 @@
+Signal type,Count,Months
+Point above UCL,3,"Aug-25, Nov-25, Jan-26"
+Point below LCL,4,"May-25, Mar-26, Apr-26, May-26"
+Run of 8+ on one side,1,Jun-25 to Feb-26 (9 months above centre line)
