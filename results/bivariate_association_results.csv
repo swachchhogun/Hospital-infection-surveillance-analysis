@@ -1,0 +1,5 @@
+Variable,Categories,n,Chi_square,df,p_holm,Cramers_V,Strength
+Organism group,10,8162,1824.97,9,<0.001,0.473,Moderate
+Specimen type,7,8147,179.87,6,<0.001,0.149,Small
+HAI status,2,8162,65.33,1,<0.001,0.089,Negligible
+Hospital unit type,2,8162,15.61,1,<0.001,0.044,Negligible
