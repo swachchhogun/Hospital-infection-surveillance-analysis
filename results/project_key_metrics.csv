@@ -1,0 +1,22 @@
+Metric,Value,Context
+Study period,April 2025 - May 2026,14 months
+Distinct culture-positive samples,10943,Sample level
+Organism isolates,12188,Organism level
+Patients,5311,De-identified patient references
+Polymicrobial samples,1073,Distinct samples
+Healthcare-associated samples,5116,46.8% of culture-positive samples
+Samples with a resistant organism,4325,39.5% of culture-positive samples
+Eligible isolates for resistance analysis,8162,Outcome Y defined at isolate level
+Resistant eligible isolates,4491,55.0% of eligible isolates
+Organism-group Cramers V,0.473,Chi-square association analysis
+Specimen-type Cramers V,0.149,Chi-square association analysis
+HAI-status Cramers V,0.089,Chi-square association analysis
+Hospital-unit-type Cramers V,0.044,Chi-square association analysis
+Logistic regression model isolates,8147,After complete-case filtering used by model
+Logistic regression model samples,7322,Sample clusters
+Held-out ROC-AUC,0.778,Grouped train/test split
+Held-out Brier score,0.190,Grouped train/test split
+Grouped 5-fold mean ROC-AUC,0.781,SD 0.009
+SPC months outside control limits,7,14 monthly observations
+Cochran-Armitage trend Z,-3.23,Downward trend
+Cochran-Armitage trend p,0.001,Ordered monthly trend
