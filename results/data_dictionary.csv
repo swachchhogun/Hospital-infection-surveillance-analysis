@@ -1,0 +1,9 @@
+Variable,Description,Type
+Sample identifier,Unique identifier for each culture-positive sample,Identifier
+Patient identifier,De-identified unique patient reference,Identifier
+Hospital unit,Standardised ward or unit of origin,Categorical
+Specimen type,Standardised specimen category,Categorical
+Organism,Standardised organism name,Categorical
+Resistance / strain,Recorded resistance mechanism or strain marker,Categorical
+Infection origin,Healthcare-associated or community / outside,Binary
+Month,Calendar month of the sample,Ordered
