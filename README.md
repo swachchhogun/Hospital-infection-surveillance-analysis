@@ -4,30 +4,23 @@ Statistical analysis of a 14-month hospital microbiology register covering antim
 
 ## Project overview
 
-This project was developed as part of an M.Sc. Statistics internship.
+Developed as an M.Sc. Statistics internship project using a cleaned microbiology register containing **10,943 distinct culture-positive samples**, **12,188 organism isolates**, and **5,311 patients** from **April 2025 to May 2026**.
 
-The analysis used a cleaned microbiology register containing:
-- **10,943** distinct culture-positive samples
-- **12,188** organism isolates
-- **5,311** patients
-- **April 2025 – May 2026**
+## Workflow
 
-The workflow was:
-**Cleaning → descriptive analysis → resistance phenotype profile → chi-square/Cramer's V → logistic regression → prediction → SPC/trend analysis → Power BI dashboard**
+**Cleaning → descriptive analysis → resistance phenotype profiling → chi-square/Cramer's V → logistic regression → prediction → SPC/trend analysis → Power BI dashboard**
 
-## Statistical methods
+## Main methods
 
 - Frequencies, proportions and cross-tabulations
 - Resistance phenotype profiling
-- Chi-square tests of association
-- Cramer's V effect sizes
+- Chi-square tests and Cramer's V
 - Holm correction for multiple tests
 - Multivariable logistic regression
 - Adjusted odds ratios and confidence intervals
 - Cluster-robust standard errors by Sample ID
-- Grouped train/test split
+- Grouped train/test split and grouped 5-fold cross-validation
 - ROC-AUC, Brier score and calibration
-- Grouped 5-fold cross-validation
 - Statistical process control p-chart
 - Cochran-Armitage trend test
 
@@ -35,65 +28,44 @@ The workflow was:
 
 - HAI proportion among culture-positive samples: **46.8%**
 - Documented applicable resistance among eligible isolates: **55.0%**
-- Organism group showed the largest bivariate association with resistance: **Cramer's V = 0.473**
+- Organism group: **Cramer's V = 0.473**
 - Held-out logistic-regression AUC: **0.778**
 - Grouped 5-fold mean AUC: **0.781**
-- **7 of 14 months** were outside the SPC control limits
+- **7 of 14 months** outside SPC control limits
 - Cochran-Armitage trend test: **Z = -3.23, p = 0.001**
 
 ## Repository structure
 
 ```text
-Hospital-infection-surveillance-analysis/
-│
 ├── README.md
-├── DATA_ACCESS.md
-├── PUBLISHING_CHECKLIST.md
 ├── .gitignore
-│
 ├── notebooks/
 │   ├── Analysis_Notebook.ipynb
 │   └── README.md
-│
 ├── docs/
 │   ├── Analysis_Code_Walkthrough.md
 │   ├── Dashboard_Build_Guide.md
 │   └── Methodology_Summary.md
-│
-├── report/
-│   └── README.md
-│
-├── dashboard/
-│   └── README.md
-│
-└── outputs/
-    └── README.md
+└── report/
+    ├── Infection_Surveillance_Report_FINAL.pdf
+    └── Infection_Surveillance_Report_FINAL.docx
 ```
 
 ## Analysis notebook
 
-The main technical file is [Analysis_Notebook.ipynb](notebooks/Analysis_Notebook.ipynb).
-
-It contains the code for the full statistical workflow and the report figures. The accompanying [code walkthrough](docs/Analysis_Code_Walkthrough.md) is the study/reference guide for understanding the code step by step.
+[Analysis_Notebook.ipynb](notebooks/Analysis_Notebook.ipynb) contains the statistical workflow and analysis code. The accompanying [code walkthrough](docs/Analysis_Code_Walkthrough.md) explains the code and reasoning step by step.
 
 ## Dashboard
 
-The Power BI dashboard is documented in [Dashboard_Build_Guide.md](docs/Dashboard_Build_Guide.md).
-
-The dashboard has five pages:
-1. Overview
-2. Organisms
-3. Antimicrobial resistance
-4. Hospital units
-5. Monthly surveillance
+The Power BI dashboard is documented in [Dashboard_Build_Guide.md](docs/Dashboard_Build_Guide.md). The five dashboard pages are Overview, Organisms, Antimicrobial resistance, Hospital units, and Monthly surveillance.
 
 ## Report
 
-The university internship report is kept in the report folder. The final DOCX/PDF should be added there after the last university-specific details are filled in.
+The final internship report is provided in the `report/` folder, including the complete written analysis and embedded figures.
 
-## Data access
+## Data
 
-The original hospital dataset is **not included**. See [DATA_ACCESS.md](DATA_ACCESS.md) for the publishing/data-handling note.
+The underlying hospital dataset is not part of this repository.
 
 ## Tools
 
