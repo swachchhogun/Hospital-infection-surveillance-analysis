@@ -1,0 +1,5 @@
+Variable,Cramers_V_full,Cramers_V_one_per_sample_mean,Replicates_significant
+Organism group,0.473,0.473,200/200
+Specimen type,0.149,0.148,200/200
+HAI status,0.089,0.094,200/200
+Hospital unit type,0.044,0.048,200/200
