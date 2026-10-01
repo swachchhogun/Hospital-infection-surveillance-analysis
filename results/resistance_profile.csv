@@ -1,0 +1,11 @@
+Organism group,Class,Isolates,CRE,ESBL,MDR,VRE,MRSA,MRCONS,Documented applicable resistance phenotype
+Klebsiella pneumoniae,Enterobacterales,2495,67.7%,9.5%,1.0%,—,—,—,77.8%
+E. coli,Enterobacterales,2090,20.0%,39.8%,0.6%,—,—,—,60.0%
+Pseudomonas sp,Non-fermenter,1010,—,—,29.8%,—,—,—,29.8%
+Acinetobacter sp,Non-fermenter,639,—,—,79.8%,—,—,—,79.8%
+Enterococcus faecium,Enterococcus,521,—,—,—,41.1%,—,—,41.1%
+Staphylococcus aureus,S. aureus,381,—,—,—,—,39.1%,—,39.1%
+Other Enterobacterales,Enterobacterales,372,3.8%,15.3%,0.8%,—,—,—,19.9%
+Other non-fermenters,Non-fermenter,289,—,—,12.8%,—,—,—,12.8%
+Other enterococci,Enterococcus,213,—,—,—,1.4%,—,—,1.4%
+Coagulase-negative staphylococci,CoNS,152,—,—,—,—,—,6.6%,6.6%
