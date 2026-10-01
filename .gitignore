@@ -1,18 +1,29 @@
-# Sensitive / local data
-data/
-*.xlsx
-*.xls
-*.csv
-
 # Python
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
+*.pyo
 .venv/
 venv/
+.env
 
-# OS
+# Jupyter
+.ipynb_checkpoints/
+
+# Local/private hospital data - never commit the source register
+*.xlsx
+*.xls
+*.xlsm
+
+# Power BI source files
+*.pbix
+*.pbit
+
+# OS / editor files
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
 
-# Local outputs
-*.tmp
+# Local QA/render folders
+qa_*/
+*_renders/
